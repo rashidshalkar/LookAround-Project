@@ -1,0 +1,108 @@
+===Database web
+
+== Table structure for table cars
+
+|------
+|Column|Type|Null|Default
+|------
+|//**id**//|int(100)|No|
+|model|varchar(100)|No|
+|manufacturer|varchar(100)|No|
+|year|int(100)|No|
+== Dumping data for table cars
+
+|24|Camry|Toyota|1997
+|25|Camry|Toyota|2005
+== Table structure for table info
+
+|------
+|Column|Type|Null|Default
+|------
+|//**id**//|int(50)|No|
+|name|varchar(100)|No|
+|price|varchar(100)|No|
+== Dumping data for table info
+
+|1|Jeep|30 000$
+|2|Lexus|40 000$
+|3|BMW X|19 000$
+|4|Porsche|45 000$
+== Table structure for table login_admin
+
+|------
+|Column|Type|Null|Default
+|------
+|//**id**//|int(11)|No|
+|user_name|varchar(100)|Yes|NULL
+|user_pass|varchar(200)|Yes|NULL
+== Dumping data for table login_admin
+
+== Table structure for table products
+
+|------
+|Column|Type|Null|Default
+|------
+|//**id**//|int(11)|No|
+|name|varchar(512)|No|
+|description|text|No|
+|price|varchar(11)|No|
+|image|varchar(100)|No|
+|star|float|No|
+|modified|timestamp|No|CURRENT_TIMESTAMP
+== Dumping data for table products
+
+|64|GRACE BAY|Unbelievably clear, clean water with hundreds of shades of blues and greens and white sugar sand beaches|$600|img/top/1.jpg|5|2016-05-14 01:04:03
+|65|BAIA DO SANCHO|As you walk through a small trail, you can't imagine what awaits you. The heavenly view seems like a mirage.|$550|img/top/2.jpg|4.5|2016-05-14 01:10:13
+|66|PLAYA PARASIO|Picture perfect in every way. Gorgeous beach and the bluest water ever!|$500
+|img/top/3.jpg|4|2016-05-14 12:33:05
+|67|ANSE LAZIO
+|Picture perfect, with crystal clear, warm waters, shade, sun and powder white sand|$600
+|img/top/4.jpg|5|2016-05-14 12:36:14
+|68|FLAMENCO BEACH
+|The water was so clear and blue and gorgeous against the backdrop of the mountains. You can't take a bad picture here.|$500
+|img/top/5.jpg|4.5|2016-05-14 12:38:30
+|69|WHITEHAVEN BEACH
+|The whole beach is untouched. No stores, no restaurants, just the beauty of nature at its best.|$500
+|img/top/6.jpg|4|2016-05-14 12:39:41
+|81|yelaman|jbf|bfs|img/top/lh0eIqTSeSU.jpg|5|2016-05-18 00:58:01
+== Table structure for table tbl_users
+
+|------
+|Column|Type|Null|Default
+|------
+|**user_id**|int(11)|No|
+|**user_name**|varchar(25)|No|
+|//**user_email**//|varchar(60)|No|
+|user_password|varchar(255)|No|
+== Dumping data for table tbl_users
+
+|13|4567|123@mail.ru|123
+|2|Shalkar5|abc@mail.ru|a123
+|18|ABC|abcd@mail.ru|123456
+|1|Shalkar Rashid|admin@gmail.com|admin
+|5|Aidar|aidar@mail.ru|a123
+|12|asdfsadfsawefw|asdf@mail.ru|as
+|17|xdry xdy cfth|asdfas@mail.ru|123456
+|16|Askhat|askhat@mail.ru|a12345
+|9|Bekzoood2|bekzod2@mail.ru|a123
+|7|Bekzoood|bekzod@mail.ru|a123
+|10|Damira|damira@mail.ru|d123
+|19|ssadf|efdds@mail.ru|123456
+|15|ghjk|ghjk@mail.ru|ghjk
+|11|eqwe qweq |qrwrqw@qeqwe.qwe|qweqweqwe
+|20|Shynggyskhan|shynggyskhan08@gmail.com|quick1
+|21|Yelaman|yelaman@gmail.com|yelaman
+|6|Zhasik|zhasik@mail.ru|a123
+|14|zxcv|zxxcv@mail.ru|zxcv
+== Table structure for table tbl_users2
+
+|------
+|Column|Type|Null|Default
+|------
+|//**id**//|int(11)|No|
+|first_name|varchar(25)|No|
+|last_name|varchar(25)|No|
+|email_id|varchar(50)|No|
+|contact_no|bigint(10)|No|
+== Dumping data for table tbl_users2
+
